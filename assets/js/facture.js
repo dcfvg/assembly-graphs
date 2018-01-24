@@ -55,7 +55,7 @@ function init(base){
       "degree": tagsCount[t]
     }
   }).filter((tag) => {
-    return tagsCount[tag.name] > 2;
+    return tagsCount[tag.name] > 1;
   })
   .value();
 
