@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>graph</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
+</head>
+<body>
+ <div id="chart"></div>
+  <div class="hidden-print container">
+    <div class="btn-group row">
+      <button id="authorize-button" type="button" class="btn btn-default"  style="display: none;">Authorize</button>
+      <button id="signout-button" type="button" class="btn btn-default" style="display: none;" >Sign Out</button>
+
+      <a href="" target="_blank" type="button" class="sheetlink hidden btn btn-default">sheet</a>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/libs.min.js"></script>
+  <script type="text/javascript" src="assets/js/templates.js"></script>
+  <script type="text/javascript" src="assets/js/facture.js"></script>
+  <script type="text/javascript" src="assets/js/gsheet.js"></script>
+  <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+</body>
+</html>

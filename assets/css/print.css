@@ -1,0 +1,31 @@
+html {
+  font-family: 'Karla', sans-serif;
+  font-size: 0.5em;
+}
+html body {
+  padding: 0;
+}
+html body #navigation {
+  display: none;
+}
+html body .page {
+  page-break-after: always;
+  border: none;
+}
+html body .pageLast {
+  page-break-after: auto;
+  border: none;
+}
+html body .page {
+  padding: none;
+  margin-top: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+tbody th,
+tbody td,
+tfoot th,
+tfoot td {
+  border-bottom: solid 1pt #000;
+}
